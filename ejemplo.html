@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigator js</title>
+</head>
+<body>
+    <p id="navegador"></p>
+    <script>
+        /*
+        - guarda informacion sobre el navegador.
+        - no hay un estandar publico pero la mayoria de los
+        navegadores soportan este objeto
+        */
+       // PROPIEDADES DEL OBJETO NAVIGATOR
+       var text ="";
+       // appCodeName : codeName del navegador
+       text += "<br/>codeName: " +navigator.appCodeName;
+
+       // appName : appName del navegador
+       text += "<br/>appName: " +navigator.appName;
+
+       // appVersion : appVersion del navegador
+       text += "<br/>appVersion: " +navigator.appVersion;
+
+       // product : motor del navegador
+       text += "<br/>product: " +navigator.product;
+
+       // platform : plataforma del navegador
+       text += "<br/>platform: " +navigator.platform;
+
+       // online : si el navegador esta en linea u offline
+       text += "<br/>online: " +navigator.onLine;
+
+       // lenguage : idioma del navegador
+       text += "<br/>idioma: " +navigator.language;
+
+       // cookieEnabled : cookies activadas o no
+       text += "<br/>cookies: " +navigator.cookieEnabled;
+
+       // userAgent : agente del usuario del navegador
+       text += "<br/>Cabecera user-agent: " +navigator.userAgent;
+
+       // geolocation: devuelve un objeto geolocation 
+       //que puede servir para localizar la posicion del usuario
+       text += "<br/>Geolocation: " +navigator.geolocation;
+
+       // METODO DEL OBJETO NAVEGADOR
+       // javaEnabled(): devuelve true o false si esta activado java
+       alert("java activado: " +navigator.javaEnabled());
+
+
+
+
+       document.getElementById("navegador").innerHTML = text;
+    </script>
+    
+</body>
+</html>
