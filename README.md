@@ -4,10 +4,10 @@
 
 El objeto del navegador JavaScript se utiliza para la detección del navegador. Se puede utilizar para obtener información del navegador, como nombre de aplicación, nombre de código de aplicación, agente de usuario, etc.
 
-El objeto del navegador es la propiedad de la ventana, por lo que se puede acceder a él mediante: "window.navigator" o "navigator"
+El objeto del navegador es la propiedad de la ventana, por lo que se puede acceder a él mediante: **window.navigator** o **navigator**
 
 # Propiedades del objeto Navigator js
-
+```
 |No.|	Propiedades	  |   Descripcion                                                                 |
 |1  |	appName	      |   devuelve el nombre                                                          |
 |2  |	appVersion	  |   devuelve la versión                                                         |
@@ -21,8 +21,8 @@ El objeto del navegador es la propiedad de la ventana, por lo que se puede acced
 |10 |	mimeTypes[]	  |   devuelve la matriz de tipo mime. Sólo es compatible con Netscape y Firefox. |
 |11 |	platform	  |   devuelve la plataforma, por ejemplo, Win32.                                 |
 |12 |	online	      |   devuelve verdadero si el navegador está en línea; de lo contrario, es falso.|
-
+```
 
 # Metodos del objeto navigator js
 
-"javaEnabled()" comprueba si java está habilitado y "taintEnabled()" comprueba si la contaminación está habilitada. Está en desuso desde JavaScript 1.2.
+**javaEnabled()** comprueba si java está habilitado y **taintEnabled()** comprueba si la contaminación está habilitada. Está en desuso desde JavaScript 1.2.
